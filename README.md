@@ -1,3 +1,21 @@
+### 介绍
+第一个VUE项目，实现了商品购买、新闻阅读、图片浏览、评论等功能。
+
+#### 插件
++ vuex - Vue数据仓库
++ vue-router - Vue路由模块
++ VuePreview - 图片预览插件
++ moment - 时间格式化插件
++ axios - HTTP库
++ qs - 参数序列化插件
+#### UI组件
++ VantUI
++ MintUI
++ MUI
+
+
+
+
 ### 日志：
 #### 制作首页组件
 1. 完成Header区域使用的是Mint-UI中的Header组件
