@@ -5,7 +5,7 @@
 	+ 需注意[router-link linkActiveClass属性](https://blog.csdn.net/Little_Flower/article/details/88316639)
 3. 在页面中间放置一个router-view来展示路由匹配到的组件
 
-#### ####  改造tabbar为router-link
+#### 改造tabbar为router-link
 1. 将\<a>标签改为\<router-link>标签
 2. 将href属性改为to属性
 
@@ -249,7 +249,7 @@ Uncaught TypeError: 'XXXXX' properties may not be accessed on strict mode functi
 
 
 
-#Vue笔记
+### Vue笔记
 1. [标签中的ref属性](https://cn.vuejs.org/v2/api/#ref)
 用于把DOM元素注册进this.$refs，方便调用
 2. DOM中可以拿界面中所有东西，与组件无关
@@ -271,7 +271,7 @@ Uncaught TypeError: 'XXXXX' properties may not be accessed on strict mode functi
 父：\<child :name="value">\</child>
 子：props:["name"] 此时子组件中可以把name作为value使用
 
-#CSS笔记
+### CSS笔记
 
 1. border 边框
 可以按顺序设置如下属性：
@@ -296,7 +296,7 @@ Uncaught TypeError: 'XXXXX' properties may not be accessed on strict mode functi
 + 2个属性值时：上下，左右
 + 1个属性值时：上下左右
 
-#JS笔记
+### JS笔记
 1. push和concat用法区别
 + push: arr.push(obj)
 + concat: arr = arr.concat(obj)
@@ -321,7 +321,7 @@ Uncaught TypeError: 'XXXXX' properties may not be accessed on strict mode functi
 
 
 
-#git常用指令
+### git常用指令
 1. 上传
 	+ git add . // 将所有文件提交到暂存区
 	+ git commit -m "提交的备注信息"  // 提交备注信息
