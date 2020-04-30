@@ -44,7 +44,7 @@
   },
   "dependencies": {
     "axios": "^0.19.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "mint-ui": "^2.2.13",
     "moment": "^2.24.0",
     "photoswipe": "^4.1.3",
