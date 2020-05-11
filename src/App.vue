@@ -2,7 +2,7 @@
 	<div class="app-container">
 		
 		<!-- 顶部 Header 区域 -->
-		<mt-header fixed title="fixed top">
+		<mt-header fixed title="DEMO">
 			<span slot="left" v-show="flag">
 			    <mt-button @click="backButton" icon="back">返回</mt-button>
 			</span>
@@ -16,15 +16,15 @@
 			<van-tabbar-item icon="home-o">
 				<router-link to="/home">主页</router-link>
 			</van-tabbar-item>
-			<van-tabbar-item icon="contact">
+			<!-- <van-tabbar-item icon="contact">
 				<router-link to="/member">会员</router-link>
-			</van-tabbar-item>
+			</van-tabbar-item> -->
 			<van-tabbar-item icon="cart-o" :info="cartNum">
 				<router-link to="/shopcar" id="tabbar-cart">购物车</router-link>
 			</van-tabbar-item>
-			<van-tabbar-item icon="search">
+			<!-- <van-tabbar-item icon="search">
 				<router-link to="/search">搜索</router-link>
-			</van-tabbar-item>
+			</van-tabbar-item> -->
 		</van-tabbar>
 	</div>
 </template>

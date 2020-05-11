@@ -33,7 +33,7 @@
 	}
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" >
 .container{
 	h3{
 		font-size: 16px;

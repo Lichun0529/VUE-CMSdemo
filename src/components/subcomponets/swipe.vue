@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<van-swipe class="my-swipe" :autoplay="3000">
-			<van-swipe-item v-for="(image, index) in swipeList" :key="index">
+			<van-swipe-item v-for="(image, index) in photo" :key="index">
 				<img :class="{full:isfull}" v-lazy="image.img" />
 			</van-swipe-item>
 		</van-swipe>
@@ -12,12 +12,16 @@
 	export default{
 		data(){
 			return{
-				
+				photo:[
+					{img: "/static/images/m1.jpg"},
+					{img: '/static/images/m2.jpg'},
+					{img: '/static/images/m3.jpg'},
+				]
 			}
 		},
 		props:[
 			"swipeList",
-			"isfull"
+			"isfull",
 			]
 			
 	}

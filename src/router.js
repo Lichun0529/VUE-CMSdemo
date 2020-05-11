@@ -30,7 +30,7 @@ var router = new VueRouter({
 		{path:'/home/goodsInfo/:id',component:goodsInfo,name:'goodsInfo'},//为路由命名
 		{path:'/home/goodsDesc/:id',component:goodsDesc},
 		{path:'/home/goodsComment/:id',component:goodsComment},
-		
+		// {path:'/carousel',component:carousel},
 		
 	],
 	// linkActiveClass:'van-tabbar-item--active'//覆盖默认路由高亮类router-link-active
